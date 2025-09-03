@@ -1,5 +1,5 @@
 package br.com.mariojp.solid.dip;
 
 public interface MailSender {
-	public void sender(); 
+	public void send(String to, String subject, String body); 
 }
